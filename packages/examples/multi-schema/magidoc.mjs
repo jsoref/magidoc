@@ -55,7 +55,7 @@ export default {
           content: `
 # Congratulations from ${config.appTitle} 🎉
 
-You've successfully created a multi-schema website with Magidoc! You are now viewing the page of \`${config.appTitle}\`. If you want, feel free to look at the other schemas by clicking on the square icon at the top right of this website.
+You've successfully created a multi-schema website with Magidoc! You are now viewing the page of \`${config.appTitle}\`. If you want, feel free to look at the other schemas by clicking on the square icon at the top right of this webpage.
           `,
         },
       ],
