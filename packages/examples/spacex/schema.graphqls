@@ -1671,7 +1671,7 @@ type Query {
     distinct_on: [users_select_column!]
 
     """
-    limit the nuber of rows returned
+    limit the number of rows returned
     """
     limit: Int
 
@@ -1701,7 +1701,7 @@ type Query {
     distinct_on: [users_select_column!]
 
     """
-    limit the nuber of rows returned
+    limit the number of rows returned
     """
     limit: Int
 
@@ -2387,7 +2387,7 @@ type Subscription {
     distinct_on: [users_select_column!]
 
     """
-    limit the nuber of rows returned
+    limit the number of rows returned
     """
     limit: Int
 
@@ -2417,7 +2417,7 @@ type Subscription {
     distinct_on: [users_select_column!]
 
     """
-    limit the nuber of rows returned
+    limit the number of rows returned
     """
     limit: Int
 
