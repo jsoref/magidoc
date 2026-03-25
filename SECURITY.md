@@ -1,5 +1,5 @@
 # Security Policy
-Security is a primary concern and is even more important for open source projects. If you find a vulnerability in Magidoc in one of the version supportiong security updates, make sure to open an issue, and a fix will be provided.
+Security is a primary concern and is even more important for open source projects. If you find a vulnerability in Magidoc in one of the version supporting security updates, make sure to open an issue, and a fix will be provided.
 
 ## Supported Versions
 

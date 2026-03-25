@@ -9,7 +9,7 @@ import MarkdownTags from './containers/tags/MarkdownTags.svelte'
 import MarkdownList from './list/MarkdownList.svelte'
 import MarkdownListItem from './list/MarkdownListItem.svelte'
 import MarkdownTable from './table/MarkdownTable.svelte'
-import MarkdownBloquote from './text/MarkdownBloquote.svelte'
+import MarkdownBlockquote from './text/MarkdownBlockquote.svelte'
 import MarkdownHeading from './text/MarkdownHeading.svelte'
 import MarkdownLink from './text/MarkdownLink.svelte'
 import MarkdownParagraph from './text/MarkdownParagraph.svelte'
@@ -26,7 +26,7 @@ const castedBase = getSiteRoot() as `/${string}`
       heading: MarkdownHeading,
       code: MarkdownCode,
       codespan: MarkdownCodeSpan,
-      blockquote: MarkdownBloquote,
+      blockquote: MarkdownBlockquote,
       link: MarkdownLink,
       paragraph: MarkdownParagraph,
       table: MarkdownTable,

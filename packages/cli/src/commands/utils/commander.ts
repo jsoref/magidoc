@@ -6,7 +6,7 @@ export const DEFAULT_CONFIG_FILE = './magidoc.mjs'
 export const CONFIG_FILE_OPTION = () => {
   return new Option(
     '-f|--file <file.js|file.mjs|file.cjs>',
-    'The magidoc configuration file location. By default, Magidoc looks for an ESModule Javascript file (mjs), but cjs is supported as well.',
+    'The magidoc configuration file location. By default, Magidoc looks for an ESModule JavaScript file (mjs), but cjs is supported as well.',
   ).default(DEFAULT_CONFIG_FILE)
 }
 

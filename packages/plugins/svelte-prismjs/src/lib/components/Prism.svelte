@@ -78,7 +78,7 @@ $: {
     class="prism--code-container"
     style="--min-height: {minHeight}; --max-height: {maxHeight};"
     class:line-numbers={showLineNumbers}>
-    <code bind:this={root} />
+    <code bind:this={root}></code>
   </pre>
 </div>
 

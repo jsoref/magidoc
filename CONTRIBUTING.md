@@ -19,7 +19,7 @@ The recommended IDE to develop on this project is VSCode. A workspace configurat
 Make sure to install the recommended plugins that will be suggested to you if they are not already installed.
 
 ## Project structure
-Project is structured in the follwing tree
+Project is structured in the following tree
 ```
 root
 ├── docs (1)
@@ -36,7 +36,7 @@ root
 
 1. **docs**: This is the [documentation website](https://magidoc.js.org). It is entirely built with Magidoc and markdown only. If you wish to update the content of the documentation, you can simply update the markdown in there. 
 2. **cli**: This is the project containing Magidoc's CLI application. It relies on many of the plugins below, as well as the starters. 
-3. **plugins**: Magidoc is plugin-oriented. The folder contains various JavaScript/TypeScript/Svelte plugins that are shared accross different components of Magidoc. Starters use most of these plugins. You can see the readme and tests for each of these projects for more details.
+3. **plugins**: Magidoc is plugin-oriented. The folder contains various JavaScript/TypeScript/Svelte plugins that are shared across different components of Magidoc. Starters use most of these plugins. You can see the readme and tests for each of these projects for more details.
 4. **starters**: Starters are the various website templates that Magidoc provides out of the box. You may create your own template with a different UI library, a different layout, different structure, etc. The goal is to provide a wide variety of easy-to-swap templates.
 
 ## Opening a merge request

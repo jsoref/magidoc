@@ -2,7 +2,7 @@
 A Rollup/ViteJS plugin that can both fetch or parse GraphQL schemas and store them locally. 
 
 
-> This plugin can be used in any project that uses Rollup/ViteJS, wether it is browser or NodeJS based.
+> This plugin can be used in any project that uses Rollup/ViteJS, whether it is browser or NodeJS based.
 
 ## Fetching
 When fetching the schema, configuration is available to set custom headers, url, method and output format.

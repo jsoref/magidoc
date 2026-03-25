@@ -17,7 +17,7 @@ export type PluginOptions = {
   target?: string
 
   /**
-   * Wether the output format should be a GraphQL SDL file or an introspection JSON file.
+   * Whether the output format should be a GraphQL SDL file or an introspection JSON file.
    *
    * Defaults to introspection JSON.
    */
