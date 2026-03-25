@@ -387,7 +387,7 @@ pre > code.diff-highlight .token.token.inserted:not(.prefix) *::selection {
   background-color: hsla(135, 73%, 55%, 0.25);
 }
 
-/* Previewers plugin overrides */
+/* Previewer plugin overrides */
 /* Based on https://github.com/atom-community/atom-ide-datatip/blob/master/styles/atom-ide-datatips.less and https://github.com/atom/atom/blob/master/packages/one-dark-ui */
 /* Border around popup */
 .prism-previewer.prism-previewer:before,
