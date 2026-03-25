@@ -251,7 +251,7 @@ pre[class*="language-"] {
 /* Plugin overrides */
 /* Selectors should have higher specificity than those in the plugins' default stylesheets */
 
-/* Show Invisibles plugin overrides */
+/* Show Invisible plugin overrides */
 .token.token.tab:not(:empty):before,
 .token.token.cr:before,
 .token.token.lf:before,
@@ -387,7 +387,7 @@ pre > code.diff-highlight .token.token.inserted:not(.prefix) *::selection {
   background-color: hsla(135, 73%, 55%, 0.25);
 }
 
-/* Previewers plugin overrides */
+/* Previewer plugin overrides */
 /* Based on https://github.com/atom-community/atom-ide-datatip/blob/master/styles/atom-ide-datatips.less and https://github.com/atom/atom/blob/master/packages/one-dark-ui */
 /* Border around popup */
 .prism-previewer.prism-previewer:before,

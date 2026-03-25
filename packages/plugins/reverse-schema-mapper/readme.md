@@ -5,6 +5,6 @@ A library to perform reverse mapping of a GraphQL Schema, allowing to find where
 
 It also aims to build a reverse tree of the GraphQL Schema, allowing to find how to query a specific field. 
 
-> This plugin can be used in any Javascript application, wether it is browser or NodeJS based.
+> This plugin can be used in any JavaScript application, whether it is browser or NodeJS based.
 ## Documentation
 Coming soon...

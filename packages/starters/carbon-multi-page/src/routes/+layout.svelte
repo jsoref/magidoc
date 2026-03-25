@@ -31,7 +31,7 @@ import { get } from '$lib/variables'
 
 setupMarkedExtensions()
 
-// Alllows custom commands to highlight in shell syntax
+// Allows custom commands to highlight in shell syntax
 Prism.languages.insertBefore('shell', 'function', {
   keyword: {
     pattern: /(^\s*)(?:magidoc|pnpm|npm|yarn|bun)(?=\s)/m,
