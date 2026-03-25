@@ -61,7 +61,7 @@ You,can,nest,them
 And add text below too!
 :::
 
-> Just a normal bloquote
+> Just a normal blockquote
 
 
 ## Tags 

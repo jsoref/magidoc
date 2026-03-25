@@ -1,7 +1,7 @@
 import Slugger from 'github-slugger'
 import { Lexer, type TokensList } from 'marked'
 import {
-  MarkdownBloquote,
+  MarkdownBlockquote,
   MarkdownBr,
   MarkdownCode,
   MarkdownCodeSpan,
@@ -48,7 +48,7 @@ export type Renderers = Record<RendererType, ConstructorOfATypedSvelteComponent>
 
 export const defaultRenderers = (): Renderers => ({
   heading: MarkdownHeading,
-  blockquote: MarkdownBloquote,
+  blockquote: MarkdownBlockquote,
   list: MarkdownList,
   list_item: MarkdownListItem,
   br: MarkdownBr,
