@@ -75,12 +75,12 @@ export function extractTokens(tokens: TokensList, options: Options): IndexableMa
 
   tokens.forEach((token: Token) => {
     if (token.type === 'heading') {
-      const headding = token as Tokens.Heading
-      const id = options.slugger.slug(headding.text)
+      const heading = token as Tokens.Heading
+      const id = options.slugger.slug(heading.text)
       const header: MarkdownHeader = {
         id: id,
-        depth: headding.depth,
-        text: headding.text,
+        depth: heading.depth,
+        text: heading.text,
       }
       const newCurrentSection: IndexableMarkdownSection = {
         type: IndexableMarkdownType.SECTION,
@@ -107,7 +107,7 @@ export function extractTokens(tokens: TokensList, options: Options): IndexableMa
       parts.push({
         type: IndexableMarkdownType.HEADER,
         path: newCurrentSection.headers,
-        title: headding.text,
+        title: heading.text,
       })
 
       currentSection = newCurrentSection
