@@ -33,7 +33,7 @@ describe('fetching the graphql schema', () => {
           .reply(200, introspectionResult)
       })
 
-      it('uses the returns the introspection query result', async () => {
+      it('returns the introspection query result', async () => {
         const result = await queryGraphQLSchema(fullPath, {})
         expect(result).toStrictEqual(schema)
       })
