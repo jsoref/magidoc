@@ -13,7 +13,7 @@ export let content: ReadonlyArray<PageTree>
       {#if item.type === 'page'}
         <AppPageNavigation {item} />
       {:else}
-        <!-- Volontarily do not use recursion and go only a single level deep. 
+        <!-- Voluntarily do not use recursion and go only a single level deep. 
       Carbon does not support recursion in nav items -->
         <SideNavMenu text={item.title} expanded>
           {#each item.children as subItem}
