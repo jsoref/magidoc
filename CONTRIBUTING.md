@@ -19,7 +19,7 @@ The recommended IDE to develop on this project is VSCode. A workspace configurat
 Make sure to install the recommended plugins that will be suggested to you if they are not already installed.
 
 ## Project structure
-Project is structured in the follwing tree
+Project is structured in the following tree
 ```
 root
 ├── docs (1)
