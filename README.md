@@ -29,7 +29,7 @@ Magidoc is a JavaScript library that auto-generates static documentation from an
 
 See the [quickstart guide](https://magidoc.js.org/introduction/quickstart).
 
-## Demo
+## Demos
 
 👉 See the [demo website](https://magidoc-carbon-multi-page.netlify.app) generated from SpaceX's public [GraphQL API](https://spacex-production.up.railway.app/).
 
