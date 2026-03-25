@@ -90,7 +90,7 @@ export type GraphQLFactoryContext = {
 
   /**
    * The default factory that exists for this type.
-   * Can be useful if you want to perform custom actions and fallback to the default provider.
+   * Can be useful if you want to perform custom actions and fall back to the default provider.
    * Note that this factory is always the factory for a scalar value. Thus, if you create a factory for a [String!]!, then the default factory will return a String, not an array of strings. You will be required to return an array yourself.
    *
    * This property is only available when overriding the default generators.
