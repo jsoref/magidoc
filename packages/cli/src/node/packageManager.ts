@@ -43,7 +43,7 @@ export async function selectPackageManager(): Promise<PackageManager> {
   }
 
   throw new Error(
-    `No Package Manager runner was found among on of the following: ${PACKAGE_MANAGER_TYPES.toString()}. Make sure that one of these is installed.`,
+    `No Package Manager runner was found among the following: ${PACKAGE_MANAGER_TYPES.toString()}. Make sure that one of these is installed.`,
   )
 }
 
