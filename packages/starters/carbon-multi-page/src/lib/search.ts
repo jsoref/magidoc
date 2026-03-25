@@ -113,7 +113,7 @@ function mergeResults(
   first: ReadonlyArray<MagidocSearchResult>,
   second: ReadonlyArray<MagidocSearchResult>,
 ): ReadonlyArray<MagidocSearchResult> {
-  // Lower the score the better
+  // The lower the score, the better
   return [...first, ...second].sort((a, b) => a.score - b.score).slice(0, 10)
 }
 
